@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTL>
+<customTextStyle enabled="true" />
+<mod:findLike type="scripts">
+  <mod-append:script>data/rainbow_scripts/rainbow_mode.lua</mod-append:script>
+</mod:findLike>
+</FTL>

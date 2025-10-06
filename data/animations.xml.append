@@ -1,0 +1,563 @@
+<FTL>
+<animSheet name="rainbow_chest" w="4920" h="34" fw="41" fh="34">chest/rainbow_chest.png</animSheet>
+<anim name="rainbow_chest">
+	<sheet>rainbow_chest</sheet>
+	<desc length="120" x="0" y="0" />
+	<time>4</time>
+</anim>
+<animSheet name="rainbow_chest_hover" w="4920" h="34" fw="41" fh="34">chest/rainbow_chest_hover.png</animSheet>
+<anim name="rainbow_chest_hover">
+	<sheet>rainbow_chest_hover</sheet>
+	<desc length="120" x="0" y="0" />
+	<time>4</time>
+</anim>
+<animSheet name="rainbow_mode_enabled" w="5640" h="12" fw="47" fh="12">rainbow_mode_enabled.png</animSheet>
+<anim name="rainbow_mode_enabled">
+	<sheet>rainbow_mode_enabled</sheet>
+	<desc length="120" x="0" y="0" />
+	<time>4</time>
+</anim>
+<animSheet name="rainbow_chest_1" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_1.png</animSheet>
+<weaponAnim name="rainbow_chest_1">
+	<sheet>rainbow_chest_1</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+
+<animSheet name="rainbow_chest_2" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_2.png</animSheet>
+<weaponAnim name="rainbow_chest_2">
+	<sheet>rainbow_chest_2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_3" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_3.png</animSheet>
+<weaponAnim name="rainbow_chest_3">
+	<sheet>rainbow_chest_3</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_4" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_4.png</animSheet>
+<weaponAnim name="rainbow_chest_4">
+	<sheet>rainbow_chest_4</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_5" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_5.png</animSheet>
+<weaponAnim name="rainbow_chest_5">
+	<sheet>rainbow_chest_5</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_6" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_6.png</animSheet>
+<weaponAnim name="rainbow_chest_6">
+	<sheet>rainbow_chest_6</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_7" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_7.png</animSheet>
+<weaponAnim name="rainbow_chest_7">
+	<sheet>rainbow_chest_7</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_8" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_8.png</animSheet>
+<weaponAnim name="rainbow_chest_8">
+	<sheet>rainbow_chest_8</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_9" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_9.png</animSheet>
+<weaponAnim name="rainbow_chest_9">
+	<sheet>rainbow_chest_9</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_10" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_10.png</animSheet>
+<weaponAnim name="rainbow_chest_10">
+	<sheet>rainbow_chest_10</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_11" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_11.png</animSheet>
+<weaponAnim name="rainbow_chest_11">
+	<sheet>rainbow_chest_11</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_12" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_12.png</animSheet>
+<weaponAnim name="rainbow_chest_12">
+	<sheet>rainbow_chest_12</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_13" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_13.png</animSheet>
+<weaponAnim name="rainbow_chest_13">
+	<sheet>rainbow_chest_13</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_14" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_14.png</animSheet>
+<weaponAnim name="rainbow_chest_14">
+	<sheet>rainbow_chest_14</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_15" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_15.png</animSheet>
+<weaponAnim name="rainbow_chest_15">
+	<sheet>rainbow_chest_15</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_16" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_16.png</animSheet>
+<weaponAnim name="rainbow_chest_16">
+	<sheet>rainbow_chest_16</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_17" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_17.png</animSheet>
+<weaponAnim name="rainbow_chest_17">
+	<sheet>rainbow_chest_17</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_18" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_18.png</animSheet>
+<weaponAnim name="rainbow_chest_18">
+	<sheet>rainbow_chest_18</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_19" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_19.png</animSheet>
+<weaponAnim name="rainbow_chest_19">
+	<sheet>rainbow_chest_19</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_20" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_20.png</animSheet>
+<weaponAnim name="rainbow_chest_20">
+	<sheet>rainbow_chest_20</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_21" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_21.png</animSheet>
+<weaponAnim name="rainbow_chest_21">
+	<sheet>rainbow_chest_21</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_22" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_22.png</animSheet>
+<weaponAnim name="rainbow_chest_22">
+	<sheet>rainbow_chest_22</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_23" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_23.png</animSheet>
+<weaponAnim name="rainbow_chest_23">
+	<sheet>rainbow_chest_23</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_24" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_24.png</animSheet>
+<weaponAnim name="rainbow_chest_24">
+	<sheet>rainbow_chest_24</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_25" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_25.png</animSheet>
+<weaponAnim name="rainbow_chest_25">
+	<sheet>rainbow_chest_25</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_26" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_26.png</animSheet>
+<weaponAnim name="rainbow_chest_26">
+	<sheet>rainbow_chest_26</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_27" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_27.png</animSheet>
+<weaponAnim name="rainbow_chest_27">
+	<sheet>rainbow_chest_27</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_28" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_28.png</animSheet>
+<weaponAnim name="rainbow_chest_28">
+	<sheet>rainbow_chest_28</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_29" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_29.png</animSheet>
+<weaponAnim name="rainbow_chest_29">
+	<sheet>rainbow_chest_29</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+
+<animSheet name="rainbow_chest_30" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_30.png</animSheet>
+<weaponAnim name="rainbow_chest_30">
+	<sheet>rainbow_chest_30</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_31" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_31.png</animSheet>
+<weaponAnim name="rainbow_chest_31">
+	<sheet>rainbow_chest_31</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_32" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_32.png</animSheet>
+<weaponAnim name="rainbow_chest_32">
+	<sheet>rainbow_chest_32</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_33" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_33.png</animSheet>
+<weaponAnim name="rainbow_chest_33">
+	<sheet>rainbow_chest_33</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_34" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_34.png</animSheet>
+<weaponAnim name="rainbow_chest_34">
+	<sheet>rainbow_chest_34</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_35" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_35.png</animSheet>
+<weaponAnim name="rainbow_chest_35">
+	<sheet>rainbow_chest_35</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_36" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_36.png</animSheet>
+<weaponAnim name="rainbow_chest_36">
+	<sheet>rainbow_chest_36</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_37" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_37.png</animSheet>
+<weaponAnim name="rainbow_chest_37">
+	<sheet>rainbow_chest_37</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_38" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_38.png</animSheet>
+<weaponAnim name="rainbow_chest_38">
+	<sheet>rainbow_chest_38</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_39" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_39.png</animSheet>
+<weaponAnim name="rainbow_chest_39">
+	<sheet>rainbow_chest_39</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_40" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_40.png</animSheet>
+<weaponAnim name="rainbow_chest_40">
+	<sheet>rainbow_chest_40</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_41" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_41.png</animSheet>
+<weaponAnim name="rainbow_chest_41">
+	<sheet>rainbow_chest_41</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_42" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_42.png</animSheet>
+<weaponAnim name="rainbow_chest_42">
+	<sheet>rainbow_chest_42</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_43" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_43.png</animSheet>
+<weaponAnim name="rainbow_chest_43">
+	<sheet>rainbow_chest_43</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_44" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_44.png</animSheet>
+<weaponAnim name="rainbow_chest_44">
+	<sheet>rainbow_chest_44</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_45" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_45.png</animSheet>
+<weaponAnim name="rainbow_chest_45">
+	<sheet>rainbow_chest_45</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_46" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_46.png</animSheet>
+<weaponAnim name="rainbow_chest_46">
+	<sheet>rainbow_chest_46</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_47" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_47.png</animSheet>
+<weaponAnim name="rainbow_chest_47">
+	<sheet>rainbow_chest_47</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_48" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_48.png</animSheet>
+<weaponAnim name="rainbow_chest_48">
+	<sheet>rainbow_chest_48</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_49" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_49.png</animSheet>
+<weaponAnim name="rainbow_chest_49">
+	<sheet>rainbow_chest_49</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_50" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_50.png</animSheet>
+<weaponAnim name="rainbow_chest_50">
+	<sheet>rainbow_chest_50</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_51" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_51.png</animSheet>
+<weaponAnim name="rainbow_chest_51">
+	<sheet>rainbow_chest_51</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_52" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_52.png</animSheet>
+<weaponAnim name="rainbow_chest_52">
+	<sheet>rainbow_chest_52</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_53" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_53.png</animSheet>
+<weaponAnim name="rainbow_chest_53">
+	<sheet>rainbow_chest_53</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_54" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_54.png</animSheet>
+<weaponAnim name="rainbow_chest_54">
+	<sheet>rainbow_chest_54</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_55" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_55.png</animSheet>
+<weaponAnim name="rainbow_chest_55">
+	<sheet>rainbow_chest_55</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_56" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_56.png</animSheet>
+<weaponAnim name="rainbow_chest_56">
+	<sheet>rainbow_chest_56</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_57" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_57.png</animSheet>
+<weaponAnim name="rainbow_chest_57">
+	<sheet>rainbow_chest_57</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_58" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_58.png</animSheet>
+<weaponAnim name="rainbow_chest_58">
+	<sheet>rainbow_chest_58</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+<animSheet name="rainbow_chest_59" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_59.png</animSheet>
+<weaponAnim name="rainbow_chest_59">
+	<sheet>rainbow_chest_59</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+
+<animSheet name="rainbow_chest_60" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_60.png</animSheet>
+<weaponAnim name="rainbow_chest_60">
+	<sheet>rainbow_chest_60</sheet>
+	<desc length="1" x="0" y="0"/>
+	<chargedFrame>0</chargedFrame>
+	<fireFrame>0</fireFrame>
+	<firePoint  x="0" y="0"/>
+	<mountPoint x="0" y="0"/>
+</weaponAnim>
+</FTL>

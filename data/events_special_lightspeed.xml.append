@@ -1,0 +1,9 @@
+<FTL>
+<mod:findName type="event" name="ATLAS_MENU" limit="1">
+  <mod-append:queueEvent>RAINBOW_SELECT_START</mod-append:queueEvent>
+</mod:findName>
+
+<mod:findName type="event" name="ATLAS_MENU_NOEQUIPMENT" limit="1">
+  <mod-append:queueEvent>RAINBOW_SELECT_START</mod-append:queueEvent>
+</mod:findName>
+</FTL>

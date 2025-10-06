@@ -1,0 +1,23 @@
+<FTL>
+<weaponBlueprint name="RAINBOW_CHEST">
+	<type>BEAM</type>
+	<flavorType>Rainbow Chest</flavorType>
+	<title>Rainbow Chest</title>
+	<short>Rainbow Chest</short>
+	<desc>A mysterious rainbow chest, you wonder what's inside.</desc>
+    <descriptionOverride>
+        
+A mysterious rainbow chest, you wonder what's inside.</descriptionOverride>
+	<tooltip>Storage Weapon</tooltip>
+	<damage>0</damage>
+	<sp>0</sp>
+	<cooldown>-1</cooldown>
+	<speed>0</speed>
+	<length>0</length>
+	<rarity>0</rarity>
+	<power>0</power>
+	<cost>999</cost>
+	<image>beam_contact</image>
+	<weaponArt>rainbow_chest_1</weaponArt>
+</weaponBlueprint>
+</FTL>

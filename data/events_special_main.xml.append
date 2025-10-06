@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTL>
+<mod:findName type="event" name="START_BEACON_PREP_LOAD" limit="1">
+	<mod-append:backgroundObject name="AEA_DARK_BOOK">
+		<layer z="0">background</layer>
+		<spawnArea x="1100" y="390" w="0" h="0" center="true"/>
+		<anim>rainbow_chest</anim>
+		<hoverAnim>rainbow_chest_hover</hoverAnim>
+		<inactiveAnim hide="true"/>
+		<tooltip>[style[color:FF0000]]R[[/style]][style[color:FF9900]]a[[/style]][style[color:FFFF00]]i[[/style]][style[color:66FF00]]n[[/style]][style[color:00FFAA]]b[[/style]][style[color:00AAFF]]o[[/style]][style[color:0000FF]]w[[/style]] [style[color:8800FF]]M[[/style]][style[color:EE00FF]]o[[/style]][style[color:FF00AA]]d[[/style]][style[color:FF0000]]e[[/style]]
+Random Item drops are removed, instead recieve a choice of 1 from 8 high quality weapons or drones, and choice of 1 from 4 crew and an augmentation at the start of each sector.</tooltip>
+		<clickAction>
+			<event load="RAINBOW_MODE_SELECT"/>
+			<destroy/>
+		</clickAction>
+	</mod-append:backgroundObject>
+</mod:findName>
+
+<event name="RAINBOW_SELECT_START">
+	<loadEventList seeded="false" first="true">
+    <event name="RAINBOW_SELECT_START_2" req="rainbow_enabled" lvl="1">
+    </event>
+    <event/>
+  </loadEventList>
+</event>
+
+<event name="RAINBOW_SELECT_START_2">
+  <text>A mysterious rainbow chest appears on the bridge of the ship!</text>
+  <choice hidden="false">
+    <text>Open it.</text>
+    <event load="RAINBOW_SELECT_1"/>
+  </choice>
+</event>
+
+<event name="RAINBOW_MODE_SELECT">
+  <text>RAINBOW MODE ENABLED!</text>
+	<variable name="rainbow_enabled" op="set" val="1"/>
+  <choice hidden="true">
+    <text>Continue...</text>
+    <event load="RAINBOW_SELECT_START_2"/>
+  </choice>
+</event>
+
+<event name="RAINBOW_SELECT_1">
+  <text>Select a weapon or drone!</text>
+  <weapon name="RAINBOW_CHEST"/>
+</event>
+
+<event name="RAINBOW_SELECT_2">
+  <text>Select a crew member or augmentation!</text>
+</event>
+
+<event name="RAINBOW_SELECT_3" />
+
+<event name="RAINBOW_TEST">
+	<text>You hurry to your ship, but realize you still have a little time before you leave. You likely have time to grab one last thing.</text>
+  <choice>
+		<text>Find another crew member.</text>
+		<event>
+			<text>Confident with your new crew, you prepare to continue on your mission.</text>
+			<crewMember amount="1" class="human"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+  <choice >
+		<text>Find engi crew member.</text>
+		<event>
+			<text>Confident with your new crew, you prepare to continue on your mission.</text>
+			<crewMember amount="1" class="engi"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+  <choice >
+		<text>Find another specific crew member.</text>
+		<event>
+			<text>Confident with your new crew, you prepare to continue on your mission.</text>
+			<crewMember amount="1" class="unique_anurak">Anurak</crewMember>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+  <choice hidden="true">
+    <text>Continue...</text>
+    <event/>
+  </choice>
+</event>
+
+</FTL>
