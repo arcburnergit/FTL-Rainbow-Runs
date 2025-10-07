@@ -157,6 +157,35 @@ do
 	doc:clear()
 end
 
+local excludedAugments = {}
+excludedAugments["CRYSTAL_SHARDS"] = true
+excludedAugments["NANO_MEDBAY"] = true
+excludedAugments["DRONE_SPEED"] = true
+excludedAugments["SYSTEM_CASING"] = true
+excludedAugments["ION_ARMOR"] = true
+excludedAugments["CLOAK_FIRE"] = true
+excludedAugments["REPAIR_ARM"] = true
+excludedAugments["SCRAP_COLLECTOR"] = true
+excludedAugments["ADV_SCANNERS"] = true
+excludedAugments["AUTO_COOLDOWN"] = true
+excludedAugments["SHIELD_RECHARGE"] = true
+excludedAugments["WEAPON_PREIGNITE"] = true
+excludedAugments["FTL_BOOSTER"] = true
+excludedAugments["FTL_JUMPER"] = true
+excludedAugments["DRONE_RECOVERY"] = true
+excludedAugments["FTL_JAMMER"] = true
+excludedAugments["STASIS_POD"] = true
+excludedAugments["FTL_JUMPER_GOOD"] = true
+excludedAugments["BOARDER_RECOVERY"] = true
+excludedAugments["MIND_ORDER"] = true
+excludedAugments["ARTILLERY_ORDER"] = true
+excludedAugments["TELEPORT_RECALL"] = true
+excludedAugments["AUGMENT_SLOT"] = true
+excludedAugments["CARGO_SLOT"] = true
+excludedAugments["CARGO_SLOT"] = true
+excludedAugments["CARGO_SLOT"] = true
+excludedAugments["CARGO_SLOT"] = true
+
 local weightedAugments = {}
 local weightSumAugment = 0
 for _, file in ipairs(mods.multiverse.blueprintFiles) do
@@ -168,14 +197,15 @@ for _, file in ipairs(mods.multiverse.blueprintFiles) do
 			local cost = 0
 			for childNode in node_child_iter(node) do
 				--print(childNode:name().." value:"..tostring(childNode:value()))
-				if childNode:name() == "desc" and type(childNode:value()) == "string" and childNode:value() ~= "YOU SHOULD NEVER SEE THIS" then
+				local seeThis, _ = childNode:value():find("YOU SHOULD NEVER SEE THIS")
+				if childNode:name() == "desc" and type(childNode:value()) == "string" and not seeThis then
 					descValid = true
 				elseif childNode:name() == "cost" then
 					cost = tonumber(childNode:value())
 				end
 			end
 			--log(node:first_attribute("name"):value().." valid:"..tostring(descValid).." cost:"..tostring(cost))
-			if descValid and not isLocked then
+			if descValid and not (isLocked or excludedAugments[node:first_attribute("name"):value()]) then
 				local blueprint = Hyperspace.Blueprints:GetAugmentBlueprint(node:first_attribute("name"):value())
 				local weight = math.ceil( (math.min(cost, 150)/10) )
 				if weight > 0 then
@@ -215,11 +245,14 @@ do
 	doc:clear()
 end
 
+local excludedEvents = {"STORAGE_CHECK", "COMBAT_CHECK"}
+
 local renderRainbowText = false
 script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(event)
 	local eventManager = Hyperspace.Event
 	if event.eventName == "RAINBOW_MODE_SELECT" then renderRainbowText = true end
 	if Hyperspace.playerVariables.rainbow_enabled ~= 1 then return end
+	
 	if event.eventName == "RAINBOW_SELECT_START_2" then
 		--nothing here
 	elseif event.eventName == "RAINBOW_SELECT_1" then
@@ -252,51 +285,61 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 		end
 	elseif event.eventName ~= "RAINBOW_SELECT_3" then
 		renderRainbowText = false
-		local resourceEvent = event.stuff
-		local removeItem = false
-		if resourceEvent.weapon then
-			removeItem = "weapon"
-			resourceEvent.weapon = nil
+		local excludedMatch = false
+		for _, eventPrefix in ipairs(excludedEvents) do
+			local startIndex, _ = event.eventName:find(eventPrefix)
+			if startIndex then 
+				excludedMatch = true 
+				--print(event.eventName.." excluded")
+			end
 		end
-		if resourceEvent.drone then
-			removeItem = "drone"
-			resourceEvent.drone = nil
-		end
-		if resourceEvent.augment then
-			removeItem = "augmentation"
-			resourceEvent.augment = nil
-		end
-		--if resourceEvent.crew > 0 then print(resourceEvent.crewBlue.crewNameLong) end
-		if resourceEvent.crew > 0 and crewNames[resourceEvent.crewBlue.crewNameLong:GetText()] then
-			removeItem = "crew member"
-			resourceEvent.crew = 0
-			--resourceEvent.crewBlue = nil
-		end
+		if not excludedMatch then
+			local resourceEvent = event.stuff
+			local removeItem = false
+			if resourceEvent.weapon then
+				removeItem = "weapon"
+				resourceEvent.weapon = nil
+			end
+			if resourceEvent.drone then
+				removeItem = "drone"
+				resourceEvent.drone = nil
+			end
+			if resourceEvent.augment then
+				removeItem = "augmentation"
+				resourceEvent.augment = nil
+			end
+			--if resourceEvent.crew > 0 then print(resourceEvent.crewBlue.crewNameLong) end
+			if resourceEvent.crew > 0 and (crewNames[resourceEvent.crewBlue.crewNameLong:GetText()] or Hyperspace.playerVariables.rainbow_namedCrew == 0) then
+				removeItem = "crew member"
+				resourceEvent.crew = 0
+				--resourceEvent.crewBlue = nil
+			end
 
-		resourceEvent = event.reward
-		if resourceEvent.weapon then
-			removeItem = "weapon"
-			resourceEvent.weapon = nil
-		end
-		if resourceEvent.drone then
-			removeItem = "drone"
-			resourceEvent.drone = nil
-		end
-		if resourceEvent.augment then
-			removeItem = "augmentation"
-			resourceEvent.augment = nil
-		end
-		if resourceEvent.crew > 0 and crewNames[resourceEvent.crewBlue.crewNameLong:GetText()] then
-			removeItem = "crew member"
-			resourceEvent.crew = 0
-			--resourceEvent.crewBlue = nil
-		end
+			resourceEvent = event.reward
+			if resourceEvent.weapon then
+				removeItem = "weapon"
+				resourceEvent.weapon = nil
+			end
+			if resourceEvent.drone then
+				removeItem = "drone"
+				resourceEvent.drone = nil
+			end
+			if resourceEvent.augment then
+				removeItem = "augmentation"
+				resourceEvent.augment = nil
+			end
+			if resourceEvent.crew > 0 and (crewNames[resourceEvent.crewBlue.crewNameLong:GetText()] or Hyperspace.playerVariables.rainbow_namedCrew == 0) then
+				removeItem = "crew member"
+				resourceEvent.crew = 0
+				--resourceEvent.crewBlue = nil
+			end
 
-		if removeItem then
-			noun = "it"
-			if removeItem == "crew member" then noun = "them" end
-			event.text.data = event.text:GetText().."\n\n".."The "..removeItem.." you recieved dissolves into "..colourTextRainbow("rainbow coloured dust", 0).." as you bring "..noun.." onboard."
-			modularEvent.text.isLiteral = true
+			if removeItem then
+				noun = "it"
+				if removeItem == "crew member" then noun = "them" end
+				event.text.data = event.text:GetText().."\n\n".."The "..removeItem.." you recieved dissolves into "..colourTextRainbow("rainbow coloured dust", 0).." as you bring "..noun.." onboard."
+				modularEvent.text.isLiteral = true
+			end
 		end
 	end
 end)

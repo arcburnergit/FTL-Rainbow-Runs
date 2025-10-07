@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTL>
+
+<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
+	<mod-append:choice req="rainbow_namedCrew" lvl="0" max_lvl="0" blue="false">
+		<text>Allow the player to receive named crew while playing [style[color:FF0000]]R[[/style]][style[color:FF9900]]a[[/style]][style[color:FFFF00]]i[[/style]][style[color:66FF00]]n[[/style]][style[color:00FFAA]]b[[/style]][style[color:00AAFF]]o[[/style]][style[color:0000FF]]w[[/style]] [style[color:8800FF]]M[[/style]][style[color:EE00FF]]o[[/style]][style[color:FF00AA]]d[[/style]][style[color:FF0000]]e[[/style]].</text>
+		<event>
+			<variable name="rainbow_namedCrew" op="set" val="1" />
+			<loadEvent>COMBAT_CHECK_TOGGLE</loadEvent>
+		</event>
+  	</mod-append:choice>
+	<mod-append:choice req="rainbow_namedCrew" lvl="1" blue="false">
+		<text>Prevent the player from receiving named crew while playing [style[color:FF0000]]R[[/style]][style[color:FF9900]]a[[/style]][style[color:FFFF00]]i[[/style]][style[color:66FF00]]n[[/style]][style[color:00FFAA]]b[[/style]][style[color:00AAFF]]o[[/style]][style[color:0000FF]]w[[/style]] [style[color:8800FF]]M[[/style]][style[color:EE00FF]]o[[/style]][style[color:FF00AA]]d[[/style]][style[color:FF0000]]e[[/style]].</text>
+	  	<event>
+			<variable name="rainbow_namedCrew" op="set" val="0" />
+			<loadEvent>COMBAT_CHECK_TOGGLE</loadEvent>
+	  	</event>
+  	</mod-append:choice>
+</mod:findName>
+
+</FTL>
