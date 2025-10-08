@@ -249,12 +249,13 @@ local excludedEvents = {"STORAGE_CHECK", "COMBAT_CHECK"}
 
 local renderRainbowText = false
 script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(event)
+	renderRainbowText = false
 	local eventManager = Hyperspace.Event
 	if event.eventName == "RAINBOW_MODE_SELECT" then renderRainbowText = true end
 	if Hyperspace.playerVariables.rainbow_enabled ~= 1 then return end
 	
-	if event.eventName == "RAINBOW_SELECT_START_2" then
-		--nothing here
+	if event.eventName == "RAINBOW_SELECT_START_2" or event.eventName == "RAINBOW_SELECT_3" then
+		renderRainbowText = true
 	elseif event.eventName == "RAINBOW_SELECT_1" then
 		renderRainbowText = true
 		event:RemoveChoice(0)
@@ -283,8 +284,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 			crewEvent.stuff.crewBlue = crew
 			event:AddChoice(crewEvent, "Pick this:", emptyReq, false)
 		end
-	elseif event.eventName ~= "RAINBOW_SELECT_3" then
-		renderRainbowText = false
+	else
 		local excludedMatch = false
 		for _, eventPrefix in ipairs(excludedEvents) do
 			local startIndex, _ = event.eventName:find(eventPrefix)

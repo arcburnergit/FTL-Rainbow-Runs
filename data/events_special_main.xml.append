@@ -8,7 +8,7 @@
 		<hoverAnim>rainbow_chest_hover</hoverAnim>
 		<inactiveAnim hide="true"/>
 		<tooltip>[style[color:FF0000]]R[[/style]][style[color:FF9900]]a[[/style]][style[color:FFFF00]]i[[/style]][style[color:66FF00]]n[[/style]][style[color:00FFAA]]b[[/style]][style[color:00AAFF]]o[[/style]][style[color:0000FF]]w[[/style]] [style[color:8800FF]]M[[/style]][style[color:EE00FF]]o[[/style]][style[color:FF00AA]]d[[/style]][style[color:FF0000]]e[[/style]]
-Random Item drops are removed, instead receive a choice of 1 from 8 high quality weapons or drones, and choice of 1 from 4 crew and an augmentation at the start of each sector.</tooltip>
+All Item drops are removed, instead receive a choice of 1 from 8 high quality weapons or drones, and choice of 1 from 4 crew and an augmentation at the start of each sector.</tooltip>
 		<clickAction>
 			<event load="RAINBOW_MODE_SELECT"/>
 			<destroy/>
