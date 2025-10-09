@@ -4,4 +4,8 @@
 <mod:findLike type="scripts">
   <mod-append:script>data/rainbow_scripts/rainbow_mode.lua</mod-append:script>
 </mod:findLike>
+
+<events>
+	<metaVariable name="rainbow_namedCrew" op="set" val="0" />
+</events>
 </FTL>

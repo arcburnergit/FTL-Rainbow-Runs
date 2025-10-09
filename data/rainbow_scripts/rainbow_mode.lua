@@ -169,7 +169,7 @@ excludedAugments["SCRAP_COLLECTOR"] = true
 excludedAugments["ADV_SCANNERS"] = true
 excludedAugments["AUTO_COOLDOWN"] = true
 excludedAugments["SHIELD_RECHARGE"] = true
-excludedAugments["WEAPON_PREIGNITE"] = true
+--excludedAugments["WEAPON_PREIGNITE"] = true
 excludedAugments["FTL_BOOSTER"] = true
 excludedAugments["FTL_JUMPER"] = true
 excludedAugments["DRONE_RECOVERY"] = true
@@ -182,9 +182,13 @@ excludedAugments["ARTILLERY_ORDER"] = true
 excludedAugments["TELEPORT_RECALL"] = true
 excludedAugments["AUGMENT_SLOT"] = true
 excludedAugments["CARGO_SLOT"] = true
-excludedAugments["CARGO_SLOT"] = true
-excludedAugments["CARGO_SLOT"] = true
-excludedAugments["CARGO_SLOT"] = true
+excludedAugments["CREW_STIMS_ULTRA"] = true
+excludedAugments["FLAGSHIP_SHIELD"] = true
+excludedAugments["FLAGSHIP_SHIELD_FULL"] = true
+excludedAugments["SYSTEM_UNBREAKING"] = true
+excludedAugments["HULL_UNBREAKING"] = true
+excludedAugments["ENEMY_RESIST_50"] = true
+excludedAugments["NO_SUFFOCATE"] = true
 
 local weightedAugments = {}
 local weightSumAugment = 0
@@ -309,7 +313,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 				resourceEvent.augment = nil
 			end
 			--if resourceEvent.crew > 0 then print(resourceEvent.crewBlue.crewNameLong) end
-			if resourceEvent.crew > 0 and (crewNames[resourceEvent.crewBlue.crewNameLong:GetText()] or Hyperspace.playerVariables.rainbow_namedCrew == 0) then
+			if resourceEvent.crew > 0 and (crewNames[resourceEvent.crewBlue.crewNameLong:GetText()] or Hyperspace.metaVariable.rainbow_namedCrew == 0) then
 				removeItem = "crew member"
 				resourceEvent.crew = 0
 				--resourceEvent.crewBlue = nil
@@ -328,7 +332,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 				removeItem = "augmentation"
 				resourceEvent.augment = nil
 			end
-			if resourceEvent.crew > 0 and (crewNames[resourceEvent.crewBlue.crewNameLong:GetText()] or Hyperspace.playerVariables.rainbow_namedCrew == 0) then
+			if resourceEvent.crew > 0 and (crewNames[resourceEvent.crewBlue.crewNameLong:GetText()] or Hyperspace.metaVariable.rainbow_namedCrew == 0) then
 				removeItem = "crew member"
 				resourceEvent.crew = 0
 				--resourceEvent.crewBlue = nil
@@ -390,3 +394,20 @@ script.on_render_event(Defines.RenderEvents.SHIP_STATUS, function() end, functio
 	end
 end)
 
+local rainbowQueued = false
+local function queueRainbowChest()
+	if not rainbowQueued then rainbowQueued = true end
+end
+
+script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ship)
+	local commandGui = Hyperspace.App.gui
+	if ship.iShipId == 0 and rainbowQueued and not commandGui.event_pause then
+		print("load rainbow chest")
+		rainbowQueued = false
+		local worldManager = Hyperspace.App.world
+		Hyperspace.CustomEventsParser.GetInstance():LoadEvent(worldManager,"RAINBOW_SELECT_START",false,-1)
+	end
+end)
+
+script.on_game_event("ATLAS_MENU", false, queueRainbowChest)
+script.on_game_event("ATLAS_MENU_NOEQUIPMENT", false, queueRainbowChest)
