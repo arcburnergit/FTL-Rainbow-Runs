@@ -32,19 +32,24 @@ local rainbowColours = {
 local loop_time = 1.5
 local current_time = loop_time
 
+--Code improved by @ranhai to handle multibyte characters
 local function colourTextRainbow(s, t)
-	local currentIndex = t
-	local newS = s:gsub(".", function(c)
-		currentIndex = currentIndex + 1
+    local currentIndex = t
+    local newS = ""
+    
+    -- Iterate over UTF-8 characters properly
+    for pos, codepoint in utf8.codes(s) do
+        local c = utf8.char(codepoint)
+        currentIndex = currentIndex + 1
 
-		local colourIndex = (currentIndex - 1) % #rainbowColours + 1
-		local colour = rainbowColours[colourIndex]
+        local colourIndex = (currentIndex - 1) % #rainbowColours + 1
+        local colour = rainbowColours[colourIndex]
 
-		local full_prefix = "[style[color:" .. colour .. "]]"
+        local full_prefix = "[style[color:" .. colour .. "]]"
 
-		return full_prefix .. c .. "[[/style]]"
-	end)
-	return newS
+        newS = newS .. full_prefix .. c .. "[[/style]]"
+    end
+    return newS
 end
 
 local function removeStyle(s)
@@ -242,7 +247,7 @@ do
 		if node:name() == "nameList" then
 			for nameNode in node_child_iter(node) do
 				crewNames[nameNode:value()] = true
-				print("crewName:"..nameNode:value())
+				--print("crewName:"..nameNode:value())
 			end
 		end
 	end
