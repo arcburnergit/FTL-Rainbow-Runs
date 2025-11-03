@@ -234,6 +234,33 @@ excludedAugments["ANTIAUG_SYSTEM_CASING"] = true
 excludedAugments["ANTIAUG_FUSION_NO_BREACH"] = true
 excludedAugments["ANTIAUG_FAST_CLOAK"] = true
 excludedAugments["ANTIAUG_FAST_HACK"] = true
+--Fusion
+excludedAugments["FAST_CLOAK"] = true
+excludedAugments["FAST_HACK"] = true
+excludedAugments["FAST_TEMPORAL"] = true
+excludedAugments["FAST_TELEPORT"] = true
+excludedAugments["FAST_BATTERY"] = true
+excludedAugments["LONG_MIND"] = true
+excludedAugments["LONG_HACK"] = true
+excludedAugments["LONG_BATTERY"] = true
+excludedAugments["HACKING_DAMAGE"] = true
+excludedAugments["IMMUNE"] = true
+excludedAugments["IMMUNE_2"] = true
+excludedAugments["FAST_WEAPONS"] = true
+excludedAugments["FASTER_WEAPONS"] = true
+excludedAugments["FASTEST_WEAPONS"] = true
+excludedAugments["WEAPON_LOCKDOWN"] = true
+excludedAugments["AUG_BEAM_PIERCE"] = true
+excludedAugments["AUG_EVERYTHING_PIERCE"] = true
+excludedAugments["AUG_BEAM_PIERCE_DRONE"] = true
+excludedAugments["AUG_EVERYTHING_PIERCE_DRONE"] = true
+excludedAugments["RADIUS_REDUCTION"] = true
+excludedAugments["FIRE_IMMUNITY"] = true
+excludedAugments["DEIONIZATION_BOOST"] = true
+excludedAugments["FUSION_NO_BREACH"] = true
+excludedAugments["FUSION_NO_FIRE"] = true
+excludedAugments["FUSION_ASTEROID_RESIST_HULL"] = true
+excludedAugments["FUSION_ASTEROID_RESIST_SHIELD"] = true
 
 
 local weightedAugments = {}
