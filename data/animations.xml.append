@@ -23,7 +23,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 
@@ -33,7 +33,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_3" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_3.png</animSheet>
@@ -42,7 +42,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_4" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_4.png</animSheet>
@@ -51,7 +51,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_5" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_5.png</animSheet>
@@ -60,7 +60,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_6" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_6.png</animSheet>
@@ -69,7 +69,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_7" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_7.png</animSheet>
@@ -78,7 +78,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_8" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_8.png</animSheet>
@@ -87,7 +87,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_9" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_9.png</animSheet>
@@ -96,7 +96,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_10" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_10.png</animSheet>
@@ -105,7 +105,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_11" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_11.png</animSheet>
@@ -114,7 +114,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_12" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_12.png</animSheet>
@@ -123,7 +123,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_13" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_13.png</animSheet>
@@ -132,7 +132,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_14" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_14.png</animSheet>
@@ -141,7 +141,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_15" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_15.png</animSheet>
@@ -150,7 +150,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_16" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_16.png</animSheet>
@@ -159,7 +159,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_17" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_17.png</animSheet>
@@ -168,7 +168,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_18" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_18.png</animSheet>
@@ -177,7 +177,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_19" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_19.png</animSheet>
@@ -186,7 +186,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_20" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_20.png</animSheet>
@@ -195,7 +195,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_21" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_21.png</animSheet>
@@ -204,7 +204,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_22" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_22.png</animSheet>
@@ -213,7 +213,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_23" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_23.png</animSheet>
@@ -222,7 +222,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_24" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_24.png</animSheet>
@@ -231,7 +231,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_25" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_25.png</animSheet>
@@ -240,7 +240,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_26" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_26.png</animSheet>
@@ -249,7 +249,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_27" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_27.png</animSheet>
@@ -258,7 +258,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_28" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_28.png</animSheet>
@@ -267,7 +267,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_29" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_29.png</animSheet>
@@ -276,7 +276,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 
@@ -286,7 +286,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_31" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_31.png</animSheet>
@@ -295,7 +295,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_32" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_32.png</animSheet>
@@ -304,7 +304,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_33" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_33.png</animSheet>
@@ -313,7 +313,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_34" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_34.png</animSheet>
@@ -322,7 +322,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_35" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_35.png</animSheet>
@@ -331,7 +331,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_36" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_36.png</animSheet>
@@ -340,7 +340,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_37" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_37.png</animSheet>
@@ -349,7 +349,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_38" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_38.png</animSheet>
@@ -358,7 +358,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_39" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_39.png</animSheet>
@@ -367,7 +367,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_40" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_40.png</animSheet>
@@ -376,7 +376,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_41" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_41.png</animSheet>
@@ -385,7 +385,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_42" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_42.png</animSheet>
@@ -394,7 +394,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_43" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_43.png</animSheet>
@@ -403,7 +403,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_44" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_44.png</animSheet>
@@ -412,7 +412,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_45" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_45.png</animSheet>
@@ -421,7 +421,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_46" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_46.png</animSheet>
@@ -430,7 +430,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_47" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_47.png</animSheet>
@@ -439,7 +439,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_48" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_48.png</animSheet>
@@ -448,7 +448,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_49" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_49.png</animSheet>
@@ -457,7 +457,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_50" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_50.png</animSheet>
@@ -466,7 +466,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_51" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_51.png</animSheet>
@@ -475,7 +475,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_52" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_52.png</animSheet>
@@ -484,7 +484,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_53" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_53.png</animSheet>
@@ -493,7 +493,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_54" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_54.png</animSheet>
@@ -502,7 +502,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_55" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_55.png</animSheet>
@@ -511,7 +511,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_56" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_56.png</animSheet>
@@ -520,7 +520,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_57" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_57.png</animSheet>
@@ -529,7 +529,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_58" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_58.png</animSheet>
@@ -538,7 +538,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 <animSheet name="rainbow_chest_59" w="34" h="41" fw="34" fh="41">chest/rainbow_chest_59.png</animSheet>
@@ -547,7 +547,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 
@@ -557,7 +557,7 @@
 	<desc length="1" x="0" y="0"/>
 	<chargedFrame>0</chargedFrame>
 	<fireFrame>0</fireFrame>
-	<firePoint  x="0" y="0"/>
+	<firePoint	x="0" y="0"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 </FTL>

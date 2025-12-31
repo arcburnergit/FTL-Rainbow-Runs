@@ -5,8 +5,8 @@
 	<title>Rainbow Chest</title>
 	<short>Rainbow Chest</short>
 	<desc>A mysterious rainbow chest, you wonder what's inside.</desc>
-    <descriptionOverride>
-        
+		<descriptionOverride>
+				
 A mysterious rainbow chest, you wonder what's inside.</descriptionOverride>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>

@@ -34,22 +34,22 @@ local current_time = loop_time
 
 --Code improved by @ranhai to handle multibyte characters
 local function colourTextRainbow(s, t)
-    local currentIndex = t
-    local newS = ""
-    
-    -- Iterate over UTF-8 characters properly
-    for pos, codepoint in utf8.codes(s) do
-        local c = utf8.char(codepoint)
-        currentIndex = currentIndex + 1
+		local currentIndex = t
+		local newS = ""
+		
+		-- Iterate over UTF-8 characters properly
+		for pos, codepoint in utf8.codes(s) do
+				local c = utf8.char(codepoint)
+				currentIndex = currentIndex + 1
 
-        local colourIndex = (currentIndex - 1) % #rainbowColours + 1
-        local colour = rainbowColours[colourIndex]
+				local colourIndex = (currentIndex - 1) % #rainbowColours + 1
+				local colour = rainbowColours[colourIndex]
 
-        local full_prefix = "[style[color:" .. colour .. "]]"
+				local full_prefix = "[style[color:" .. colour .. "]]"
 
-        newS = newS .. full_prefix .. c .. "[[/style]]"
-    end
-    return newS
+				newS = newS .. full_prefix .. c .. "[[/style]]"
+		end
+		return newS
 end
 
 local function removeStyle(s)
@@ -194,6 +194,75 @@ excludedAugments["SYSTEM_UNBREAKING"] = true
 excludedAugments["HULL_UNBREAKING"] = true
 excludedAugments["ENEMY_RESIST_50"] = true
 excludedAugments["NO_SUFFOCATE"] = true
+
+--Addon augments added to the list by Aleev
+--Forgotten Races
+excludedAugments["FR_OBSERVER_BOONS"] = true
+excludedAugments["FR_OBSERVER_BLESSINGS"] = true
+excludedAugments["FR_OBSERVER_GRANTS"] = true
+excludedAugments["FR_AETHER_NECRONOMICON_ENEMY"] = true
+excludedAugments["FR_CARBON_CRYSTAL_ARMOR_ENEMY"] = true
+excludedAugments["FR_ENERGY_SHIELD_BATTERY_ENEMY"] = true
+excludedAugments["FR_GOLDEN_SYSTEMS_ENEMY"] = true
+excludedAugments["FR_INFESTATION_ENEMY"] = true
+excludedAugments["FR_OBELISK_FLAGSHIP_NOBLE_SURGE"] = true
+excludedAugments["FR_OBELISK_FLAGSHIP_ROYAL_SURGE"] = true
+excludedAugments["FR_OBELISK_FLAGSHIP_COMMONWEALTH_SURGE"] = true
+excludedAugments["FR_OBELISK_FLAGSHIP_WITHER_SURGE"] = true
+excludedAugments["FR_OBELISK_FLAGSHIP_G_SURGE"] = true
+excludedAugments["FR_OBELISK_FLAGSHIP_Y_SURGE"] = true
+excludedAugments["ION_ARMOR_NEUTRALIZER"] = true
+excludedAugments["ANTIAUG_AUG_EVERYTHING_PIERCE"] = true
+excludedAugments["FR_FULL_AUTO"] = true
+excludedAugments["FR_SUSTAIN_PROTOCOL"] = true
+excludedAugments["FR_DAMAGED_WEAPONS"] = true
+excludedAugments["FR_UNSLOTED_GHOSTS"] = true
+excludedAugments["FR_ERROR_ROOM"] = true
+excludedAugments["FR_PINK_ROOM_CLOAKING"] = true
+excludedAugments["FR_PINK_ROOM_OXYGEN"] = true
+excludedAugments["FR_FORGOTTEN_WALLACE"] = true
+excludedAugments["FR_HER_VISION"] = true
+excludedAugments["FR_SIREN_TELEPORT"] = true
+--Forgemaster
+excludedAugments["FM_UNBROKEN_ARMOR"] = true
+excludedAugments["INSTANT_SYSTEMS"] = true
+excludedAugments["FM_RELOADER_REWARD_3"] = true
+excludedAugments["FM_RELOADER_REWARD_2"] = true
+excludedAugments["ANTIAUG_ROCK_ARMOR"] = true
+excludedAugments["ANTIAUG_AUTO_COOLDOWN"] = true
+excludedAugments["ANTIAUG_SHIELD_RECHARGE"] = true
+excludedAugments["ANTIAUG_ION_ARMOR"] = true
+excludedAugments["ANTIAUG_SYSTEM_CASING"] = true
+excludedAugments["ANTIAUG_FUSION_NO_BREACH"] = true
+excludedAugments["ANTIAUG_FAST_CLOAK"] = true
+excludedAugments["ANTIAUG_FAST_HACK"] = true
+--Fusion
+excludedAugments["FAST_CLOAK"] = true
+excludedAugments["FAST_HACK"] = true
+excludedAugments["FAST_TEMPORAL"] = true
+excludedAugments["FAST_TELEPORT"] = true
+excludedAugments["FAST_BATTERY"] = true
+excludedAugments["LONG_MIND"] = true
+excludedAugments["LONG_HACK"] = true
+excludedAugments["LONG_BATTERY"] = true
+excludedAugments["HACKING_DAMAGE"] = true
+excludedAugments["IMMUNE"] = true
+excludedAugments["IMMUNE_2"] = true
+excludedAugments["FAST_WEAPONS"] = true
+excludedAugments["FASTER_WEAPONS"] = true
+excludedAugments["FASTEST_WEAPONS"] = true
+excludedAugments["WEAPON_LOCKDOWN"] = true
+excludedAugments["AUG_BEAM_PIERCE"] = true
+excludedAugments["AUG_EVERYTHING_PIERCE"] = true
+excludedAugments["AUG_BEAM_PIERCE_DRONE"] = true
+excludedAugments["AUG_EVERYTHING_PIERCE_DRONE"] = true
+excludedAugments["RADIUS_REDUCTION"] = true
+excludedAugments["FIRE_IMMUNITY"] = true
+excludedAugments["DEIONIZATION_BOOST"] = true
+excludedAugments["FUSION_NO_BREACH"] = true
+excludedAugments["FUSION_NO_FIRE"] = true
+excludedAugments["FUSION_ASTEROID_RESIST_HULL"] = true
+excludedAugments["FUSION_ASTEROID_RESIST_SHIELD"] = true
 
 local weightedAugments = {}
 local weightSumAugment = 0
@@ -399,7 +468,7 @@ script.on_render_event(Defines.RenderEvents.SHIP_STATUS, function() end, functio
 	end
 end)
 
-local rainbowQueued = false
+--[[local rainbowQueued = false
 local function queueRainbowChest()
 	if not rainbowQueued then rainbowQueued = true end
 end
@@ -407,7 +476,7 @@ end
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ship)
 	local commandGui = Hyperspace.App.gui
 	if ship.iShipId == 0 and rainbowQueued and not commandGui.event_pause then
-		print("load rainbow chest")
+		--print("load rainbow chest")
 		rainbowQueued = false
 		local worldManager = Hyperspace.App.world
 		Hyperspace.CustomEventsParser.GetInstance():LoadEvent(worldManager,"RAINBOW_SELECT_START",false,-1)
@@ -415,4 +484,4 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ship)
 end)
 
 script.on_game_event("ATLAS_MENU", false, queueRainbowChest)
-script.on_game_event("ATLAS_MENU_NOEQUIPMENT", false, queueRainbowChest)
+script.on_game_event("ATLAS_MENU_NOEQUIPMENT", false, queueRainbowChest)]]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTL>
+
+<mod:findName type="event" name="ATLAS_MENU">
+	<mod-append:queueEvent>RAINBOW_SELECT_LOAD</mod-append:queueEvent>
+</mod:findName>
+<mod:findName type="event" name="ATLAS_MENU_NOEQUIPMENT">
+	<mod-append:queueEvent>RAINBOW_SELECT_LOAD</mod-append:queueEvent>
+</mod:findName>
+
+<event name="RAINBOW_SELECT_LOAD">
+	<loadEventList first="true">
+		<event name="RAINBOW_SELECT_START" req="rainbow_chest_gained" lvl="0" max_lvl="0"/>
+		<event/>
+	</loadEventList>
+</event>
+
+</FTL>
